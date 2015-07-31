@@ -8,12 +8,15 @@ margin: 1%;}
 width: 31.3%;
 float: left;
 margin: 1%;}
-.column3 {margin-right: 0%;}
+.column3 {margin-right: 0%;
+z-index:-999;
+opacity: 0%;
+}
 li {
 display: inline;
 padding: 0.5em;}
 #nav, #footer {
-background-color: #ffffff;
+
 padding: 0.5em 0;}
 #feature, .article {
 height: 15em;
@@ -34,3 +37,10 @@ height: 100px;}
 li {
 display: inline;
 padding: 5px;}*/
+
+#footer{
+	position:absolute;
+	margin:auto;
+	left:44%;
+	top:100%;
+}
