@@ -63,7 +63,7 @@ body {
   width: 50%;
   height: 50%;
   margin: 0 0 0 -25%;
-  background: rgba(255,255,255,.75);
+  background: #f2c2c2;
   border-radius: 2px;
   -webkit-transform: transform3d(0, 10px, 0) rotate(45deg);
   -webkit-animation: wave 3s ease infinite 0;
